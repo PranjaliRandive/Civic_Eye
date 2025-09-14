@@ -1,0 +1,38 @@
+:root {
+  --display-font-size-1: 5rem;
+  --display-font-size-2: 4.5rem;
+  --display-font-size-3: 4rem;
+  --display-font-size-4: 3.5rem;
+  --display-font-size-5: 3rem;
+  --display-font-size-6: 2.5rem;
+
+  --display-font-family: inherit;   
+  --display-font-style: normal;    
+  --display-font-weight: 300;
+  --display-line-height: 1.2;       
+}
+
+body {
+  margin: 0;
+  height: 100vh;                /* full height of viewport */
+  display: flex;                /* enable flexbox */
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
+  background-color: #f8f9fa;    /* light background (optional) */
+}
+
+h1 {
+  font-size: var(--display-font-size-1);
+  font-family: var(--display-font-family);
+  font-style: var(--display-font-style);
+  font-weight: var(--display-font-weight);
+  line-height: var(--display-line-height);
+}
+
+.container {
+  text-align: center;           /* center text inside */
+}
+
+button {
+  margin-top: 20px;             /* space above button */
+}
